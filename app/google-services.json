@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "41864590478",
+    "firebase_url": "https://biosat-teste.firebaseio.com",
+    "project_id": "biosat-teste",
+    "storage_bucket": "biosat-teste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41864590478:android:1ca4f2a0e967b722f3c5df",
+        "android_client_info": {
+          "package_name": "com.fagundes.projetosaude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41864590478-gtn3ir2934nnepdb5r6hup39lr0g7cid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fagundes.projetosaude",
+            "certificate_hash": "5a716182596a003b4aa19b83859b6d563dce2693"
+          }
+        },
+        {
+          "client_id": "41864590478-00o7hbidgmgplga18u4hb9o4v9d7mps3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNon8Vk4l9zuacwT1IoBpTVbiP2IqNynY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41864590478-00o7hbidgmgplga18u4hb9o4v9d7mps3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
