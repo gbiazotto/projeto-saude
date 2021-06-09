@@ -1,0 +1,53 @@
+Frequencia: {
+    "id": "0",
+    "data": "DD-MM-YYYYTHH:mm:ss:sss",
+    "frequencia": "Int",
+    "localizacao": "VARCHAR(500)",
+    "longitude": "Double",
+    "latitude": "Double",
+    "idUsuario": "Int"
+}
+
+Pressao: {
+    "id": "0",
+    "data": "DD-MM-YYYYTHH:mm:ss:sss",
+    "alta": "Int",
+    "baixa": "Int",
+    "localizacao": "VARCHAR(500)",
+    "longitude": "Double",
+    "latitude": "Double",
+    "idUsuario": "Int"
+}
+
+Oxygenio: {
+    "id": "0",
+    "data": "DD-MM-YYYYTHH:mm:ss:sss",
+    "saturacao": "Int",
+    "localizacao": "VARCHAR(500)",
+    "longitude": "Double",
+    "latitude": "Double",
+    "idUsuario": "Int"
+}
+
+
+DTOTransmissao{
+
+    "listaFrequencia":[Frequencia],
+    "listaPressao":[Pressao],
+    "listaOxygenio":[Oxygenio],
+    "idUsuario":"Int",
+    "token":"lçkdjfçlkasdjfkasjdf..."
+}
+
+
+ROTAS
+
+https::192.168.0.1.../api/postMedidas
+vai ser passado um Json no body com nome de dtoTransmissao
+a rota deve retornar um json no body
+{
+    status:200
+}
+
+
+e mais 3 rotas get para leituras dos dados

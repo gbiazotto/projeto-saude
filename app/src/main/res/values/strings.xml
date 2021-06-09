@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Zetta</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="USER_UUID_KEY">UUID</string>
+    <string name="SHARED_PREFS_KEY">com.fagundes.projetosaude.shared_prefs</string>
+    <string name="user_uuid_pattern">Olá, %s</string>
+    <string name="bracelet_status_pattern">Status da Pulseira: %s</string>
+    <string name="connecting_message">Conectando</string>
+    <string name="heart_frequency_pattern">%s BPM</string>
+    <string name="blood_pressure_pattern">%s / %s</string>
+    <string name="oxygen_pattern">%s</string>
+    <string name="last_reading_pattern">Ultima leitura: %s</string>
+</resources>
